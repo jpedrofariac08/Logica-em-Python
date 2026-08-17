@@ -1,0 +1,32 @@
+*/ PYTHON! */
+*/adição de 2 variaveis! /*
+
+print("programa de soma de 2 variaveis!")
+a = float (input("insira o numero a:"))
+b = float (input("insira o numero b:"))
+soma = (a + b)
+print("o resultado da soma vale:", soma)
+
+*/subtracao de 2 variaveis! /*
+
+print("programa de subtracao de 2 variaveis!")
+a = float (input("insira o numero a:"))
+b = float (input("insira o numero b:"))
+subtracao = (a - b)
+print(print("programa de multiplicacao de 2 variaveis!")
+
+*/multiplicacao de 2 variaveis! /*
+
+a = float (input("insira o numero a:"))
+b = float (input("insira o numero b:"))
+multiplicacao = (a * b)
+print("o resultado da multiplicacao vale:", multiplicacao)"o resultado da subtracao vale:", subtracao)
+
+*/divisao de 2 variaveis! /*
+
+print("programa de divisao de 2 variaveis!")
+a = float (input("insira o numero a:"))
+b = float (input("insira o numero b:"))
+divisao = (a / b)
+print("o resultado da divisao vale:", divisao)
+
