@@ -30,3 +30,20 @@ b = float (input("insira o numero b:"))
 divisao = (a / b)
 print("o resultado da divisao vale:", divisao)
 
+*/dobro e triplo de um numero! /*
+
+a = float(input("digite um numero:"))
+dobro = (a * 2)
+triplo = (a * 3)
+
+print("\no dobro do numero inserido:", dobro)
+print("\no triplo do numero inserido:", triplo)
+
+a = float(input("digite um numero:"))
+antecessor = (a - 1)
+sucessor = (a + 1)
+
+*/antecessor e sucessor de um numero! /*
+
+print('o antecessor do numero inserido é:', antecessor)
+print('o sucessor do numero inserido é:', sucessor)
