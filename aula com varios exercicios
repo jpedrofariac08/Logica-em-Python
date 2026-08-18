@@ -87,6 +87,11 @@ elif(b > a and b > c):
 else:
     print(c," é maior entre os 3!")
 
+*/apto para dirigir/*
 
-
+habilitado = str(input("voce é habilitado? "))
+if (habilitado == "sim"):
+    print("voce esta apto para dirigir!")
+else:
+    print("voce nao esta apto para dirigir!")
 
