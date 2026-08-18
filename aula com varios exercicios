@@ -102,3 +102,15 @@ if (tituloELEITOR == "sim"):
     print("voce esta apto para votar!")
 else:
     print("voce nao esta apto para votar!")
+
+*/desconto para pagamento a vista/*
+
+tipodepagamento = str(input("qual sera a forma de pagamento? "))
+desconto = float
+valor = float
+valor = 100
+
+if(tipodepagamento == ("a vista")):
+    print("o valor do produto a vista com os 10 porcento de desconto sera", valor - (valor *0.10), "reais")
+else:
+    print("o valor do produto sem os 10 porcento de desconto sera", valor, "reais")
