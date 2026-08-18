@@ -47,3 +47,46 @@ sucessor = (a + 1)
 
 print('o antecessor do numero inserido é:', antecessor)
 print('o sucessor do numero inserido é:', sucessor)
+
+*/par ou impar/*
+
+a = float(input("escreva um numero:"))
+if (a % 2 == 0):
+    print(a,"é par!")
+else:
+    print(a,"é impar!")
+
+*/positivo, negativo ou vale 0/*
+
+a = float(input("escreva um numero:"))
+if (a > 0):
+    print(a," é positivo!")
+elif (a < 0):
+    print(a," é negativo!")
+else:
+    print(a," vale 0!")
+
+*/maior entre dois numeros/*
+
+a = float(input("escreva o primeiro numero:"))
+b = float(input("escreva o segundo numero:"))
+if(a > b):
+    print(a, " é maior que ",b)
+else:
+    print(b," é maior que ", a)
+
+*/maior entre tres numeros/*
+
+a = float(input("escreva o primeiro numero:"))
+b = float(input("escreva o segundo numero:"))
+c = float(input("escreva o terceiro numero:"))
+if(a > b and a > c):
+    print(a," é maior entre os 3 numeros!")
+elif(b > a and b > c):
+    print(b," é maior entre os 3!")
+else:
+    print(c," é maior entre os 3!")
+
+
+
+
