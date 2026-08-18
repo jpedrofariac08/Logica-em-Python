@@ -95,3 +95,10 @@ if (habilitado == "sim"):
 else:
     print("voce nao esta apto para dirigir!")
 
+*/apto para votar/*
+
+tituloELEITOR = str(input("voce tem titulo de eleitor? "))
+if (tituloELEITOR == "sim"):
+    print("voce esta apto para votar!")
+else:
+    print("voce nao esta apto para votar!")
