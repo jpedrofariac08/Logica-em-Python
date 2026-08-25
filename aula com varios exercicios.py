@@ -1,0 +1,178 @@
+*/ PYTHON! */
+*/adição de 2 variaveis! /*
+
+print("programa de soma de 2 variaveis!")
+a = float (input("insira o numero a:"))
+b = float (input("insira o numero b:"))
+soma = (a + b)
+print("o resultado da soma vale:", soma)
+
+*/subtracao de 2 variaveis! /*
+
+print("programa de subtracao de 2 variaveis!")
+a = float (input("insira o numero a:"))
+b = float (input("insira o numero b:"))
+subtracao = (a - b)
+print(print("programa de multiplicacao de 2 variaveis!")
+
+*/multiplicacao de 2 variaveis! /*
+
+a = float (input("insira o numero a:"))
+b = float (input("insira o numero b:"))
+multiplicacao = (a * b)
+print("o resultado da multiplicacao vale:", multiplicacao)"o resultado da subtracao vale:", subtracao)
+
+*/divisao de 2 variaveis! /*
+
+print("programa de divisao de 2 variaveis!")
+a = float (input("insira o numero a:"))
+b = float (input("insira o numero b:"))
+divisao = (a / b)
+print("o resultado da divisao vale:", divisao)
+
+*/dobro e triplo de um numero! /*
+
+a = float(input("digite um numero:"))
+dobro = (a * 2)
+triplo = (a * 3)
+
+print("\no dobro do numero inserido:", dobro)
+print("\no triplo do numero inserido:", triplo)
+
+*/antecessor e sucessor de um numero! /*
+
+a = float(input("digite um numero:"))
+antecessor = (a - 1)
+sucessor = (a + 1)
+
+print('o antecessor do numero inserido é:', antecessor)
+print('o sucessor do numero inserido é:', sucessor)
+
+*/par ou impar/*
+
+a = float(input("escreva um numero:"))
+if (a % 2 == 0):
+    print(a,"é par!")
+else:
+    print(a,"é impar!")
+
+*/positivo, negativo ou vale 0/*
+
+a = float(input("escreva um numero:"))
+if (a > 0):
+    print(a," é positivo!")
+elif (a < 0):
+    print(a," é negativo!")
+else:
+    print(a," vale 0!")
+
+*/maior entre dois numeros/*
+
+a = float(input("escreva o primeiro numero:"))
+b = float(input("escreva o segundo numero:"))
+if(a > b):
+    print(a, " é maior que ",b)
+else:
+    print(b," é maior que ", a)
+
+*/maior entre tres numeros/*
+
+a = float(input("escreva o primeiro numero:"))
+b = float(input("escreva o segundo numero:"))
+c = float(input("escreva o terceiro numero:"))
+if(a > b and a > c):
+    print(a," é maior entre os 3 numeros!")
+elif(b > a and b > c):
+    print(b," é maior entre os 3!")
+else:
+    print(c," é maior entre os 3!")
+
+*/apto para dirigir/*
+
+habilitado = str(input("voce é habilitado? "))
+if (habilitado == "sim"):
+    print("voce esta apto para dirigir!")
+else:
+    print("voce nao esta apto para dirigir!")
+
+*/apto para votar/*
+
+tituloELEITOR = str(input("voce tem titulo de eleitor? "))
+if (tituloELEITOR == "sim"):
+    print("voce esta apto para votar!")
+else:
+    print("voce nao esta apto para votar!")
+
+*/desconto para pagamento a vista/*
+
+tipodepagamento = str(input("qual sera a forma de pagamento? "))
+desconto = float
+valor = float
+valor = 100
+
+if(tipodepagamento == ("a vista")):
+    print("o valor do produto a vista com os 10 porcento de desconto sera", valor - (valor *0.10), "reais")
+else:
+    print("o valor do produto sem os 10 porcento de desconto sera", valor, "reais")
+
+*/quem pode votar com true or false!/*
+
+print("quem pode votar?")
+
+idade = float(input("quantos anos de idade voce tem?"))
+tituloELEITOR = (input("voce tem titulo de eleitor?"))
+
+if idade >= 16:
+    idade = True
+else:
+    idade = False
+if tituloELEITOR.lower() == "sim" and idade:
+    print ("voce pode votar!")
+else:
+    print("voce não pode votar!")
+
+*/quem pode dirigir com true or false!/*
+
+print("quem pode dirigir")
+
+idade = float(input("quantos anos de idade voce tem?"))
+habilitado = (input("voce é habilitado?"))
+
+if idade >= 18:
+    idade = True
+else:
+    idade = False
+if habilitado.lower() == "sim" and idade:
+    print ("voce pode dirigir!")
+else:
+    print("voce não pode dirigir!")
+
+*/salario for 2000 ou mais, recebe 15% de bonus!/*
+
+salario = float(input("insira o valor do salario:"))
+
+if salario >= 2000:
+    print("o salario total com comissão é:  R$", (salario + (salario * 0.15)))
+else:
+    print("o salario total sem comissão é:  R$", salario)
+
+*/intervalo 10 - 50!/*
+
+numero = float(input("insira um numero:"))
+if(numero >= 10 and numero <= 50):
+    print("o numero esta no intervalo!")
+else:
+    print("o numero nao esta no intervalo!")
+
+*/entrada em evento!/*
+
+idade = float(input("qual a sua idade? "))
+ingresso = (input("voce tem ingresso?"))
+if (idade >= 18):
+    idade = True
+else:
+    idade = False
+if(ingresso.lower() == "sim" and idade):
+     print("voce pode entrar!")
+else:
+    print("voce nao pode entrar!")
