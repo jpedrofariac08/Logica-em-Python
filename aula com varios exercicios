@@ -114,3 +114,19 @@ if(tipodepagamento == ("a vista")):
     print("o valor do produto a vista com os 10 porcento de desconto sera", valor - (valor *0.10), "reais")
 else:
     print("o valor do produto sem os 10 porcento de desconto sera", valor, "reais")
+
+*/quem pode votar com true or false!/*
+
+print("quem pode votar?")
+
+idade = float(input("quantos anos de idade voce tem?"))
+tituloELEITOR = (input("voce tem titulo de eleitor?"))
+
+if idade >= 16:
+    idade = True
+else:
+    idade = False
+if tituloELEITOR.lower() == "sim" and idade:
+    print ("voce pode votar!")
+else:
+    print("voce não pode votar!")
