@@ -155,3 +155,11 @@ if salario >= 2000:
     print("o salario total com comissão é:  R$", (salario + (salario * 0.15)))
 else:
     print("o salario total sem comissão é:  R$", salario)
+
+*/intervalo 10 - 50!/*
+
+numero = float(input("insira um numero:"))
+if(numero >= 10 and numero <= 50):
+    print("o numero esta no intervalo!")
+else:
+    print("o numero nao esta no intervalo!")
