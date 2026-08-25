@@ -146,3 +146,12 @@ if habilitado.lower() == "sim" and idade:
     print ("voce pode dirigir!")
 else:
     print("voce não pode dirigir!")
+
+*/salario for 2000 ou mais, recebe 15% de bonus!/*
+
+salario = float(input("insira o valor do salario:"))
+
+if salario >= 2000:
+    print("o salario total com comissão é:  R$", (salario + (salario * 0.15)))
+else:
+    print("o salario total sem comissão é:  R$", salario)
