@@ -130,3 +130,19 @@ if tituloELEITOR.lower() == "sim" and idade:
     print ("voce pode votar!")
 else:
     print("voce não pode votar!")
+
+*/quem pode dirigir com true or false!/*
+
+print("quem pode dirigir")
+
+idade = float(input("quantos anos de idade voce tem?"))
+habilitado = (input("voce é habilitado?"))
+
+if idade >= 18:
+    idade = True
+else:
+    idade = False
+if habilitado.lower() == "sim" and idade:
+    print ("voce pode dirigir!")
+else:
+    print("voce não pode dirigir!")
