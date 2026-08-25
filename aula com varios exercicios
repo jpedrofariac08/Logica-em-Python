@@ -163,3 +163,16 @@ if(numero >= 10 and numero <= 50):
     print("o numero esta no intervalo!")
 else:
     print("o numero nao esta no intervalo!")
+
+*/entrada em evento!/*
+
+idade = float(input("qual a sua idade? "))
+ingresso = (input("voce tem ingresso?"))
+if (idade >= 18):
+    idade = True
+else:
+    idade = False
+if(ingresso.lower() == "sim" and idade):
+     print("voce pode entrar!")
+else:
+    print("voce nao pode entrar!")
