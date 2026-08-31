@@ -187,3 +187,34 @@ if (cadastro == autentificacao):
     print("senha correta, login REALIZADO!")
 else:
     print("senha incorreta, login não realizado!")
+
+print("CALCULADORA SIMPLES!")
+a = float(input("digite um primeiro numero:"))
+b = float(input("digite um segundo numero:"))
+conta = input("digite a operação desejada:")
+soma = a + b 
+subtracao = a - b 
+divisao = a / b 
+multiplicacao = a * b 
+
+#calculadora simples!
+
+print("CALCULADORA SIMPLES!")
+a = float(input("digite um primeiro numero:"))
+b = float(input("digite um segundo numero:"))
+conta = input("digite a operação desejada:")
+soma = a + b 
+subtracao = a - b 
+divisao = a / b 
+multiplicacao = a * b 
+
+if (conta == "+"):
+    print("o resultado da operação é: ", soma)
+elif (conta == "-"):
+    print("o resultado da operação é: ", subtracao)
+elif (conta == "/"):
+    print("o resultado da operação é: ", divisao) 
+elif (conta == "*"):
+    print("o resultado da operação é: ", multiplicacao) 
+else:
+    print("operação invalida!")
