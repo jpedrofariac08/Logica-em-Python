@@ -232,3 +232,23 @@ if autorizacao == "sim":
     print("voce pode praticar esportes!")
 else:
     print("voce não pode praticar esportes!")
+
+#praticar esportes 12-18 anos + autorização.v2!
+
+print("Praticar esportes 12-18 anos + autorização!")
+
+idade = int(input("Qual a sua idade? "))
+
+idadevalida = idade >= 12 and idade <= 18
+
+autorizacao = input("Você tem autorização? ").lower()
+
+if autorizacao == "sim":
+    autorizacao_valida = True
+else:
+    autorizacao_valida = False
+
+if idadevalida and autorizacao_valida:
+    print("Você pode praticar esportes!")
+else:
+    print("Você não pode praticar!")
