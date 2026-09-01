@@ -213,7 +213,10 @@ if (conta == "+"):
 elif (conta == "-"):
     print("o resultado da operação é: ", subtracao)
 elif (conta == "/"):
-    print("o resultado da operação é: ", divisao) 
+    if(a!=0 and b!=0):
+        print("o resultado da operação é: ", divisao) 
+    else:
+        print("operação invalida!")
 elif (conta == "*"):
     print("o resultado da operação é: ", multiplicacao) 
 else:
