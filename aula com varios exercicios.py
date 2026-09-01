@@ -252,3 +252,14 @@ if idadevalida and autorizacao_valida:
     print("Você pode praticar esportes!")
 else:
     print("Você não pode praticar!")
+
+#esta chovendo?
+
+chuva = input("esta chovendo? ")
+print("-----------^------------")
+if chuva =="sim":
+    chuva = True
+if chuva == True:
+    print("voce nao pode sair de casa, se nao vai se molhar!")
+else:
+    print("pode sair de casa e ir jogar um futebol!")
