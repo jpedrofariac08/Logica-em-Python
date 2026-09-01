@@ -221,3 +221,14 @@ elif (conta == "*"):
     print("o resultado da operação é: ", multiplicacao) 
 else:
     print("operação invalida!")
+
+#praticar esportes 12-18 anos + autorização!
+
+print("praticar esportes 12-18 anos + autorização!")
+idade = float(input("qual a sua idade? "))
+if (idade >=12 and idade <= 18):
+    autorizacao = input("voce tem autorizacao?")
+if autorizacao == "sim":
+    print("voce pode praticar esportes!")
+else:
+    print("voce não pode praticar esportes!")
