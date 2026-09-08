@@ -263,3 +263,21 @@ if chuva == True:
     print("voce nao pode sair de casa, se nao vai se molhar!")
 else:
     print("pode sair de casa e ir jogar um futebol!")
+
+#opções de pagamento!
+
+print("----------MENU DE PAGAMENTO----------")
+print("-dinheiro\n-credito\n-debito\n-pix\n-boleto")
+forma_pagamento = input("qual sera sua forma de pagamento? ")
+
+#Desconto a partir de 100(10%), 300(15%), 500(20%)
+
+valor_da_compra = float(input("o valor  da compra foi:"))
+if (valor_da_compra >= 100 and valor_da_compra < 300):
+    print("o valor total da compra com desconto foi:R$", valor_da_compra -(valor_da_compra * 0.10))
+elif (valor_da_compra >= 300 and valor_da_compra < 500):
+    print("o valor total da compra com desconto foi:R$", valor_da_compra -(valor_da_compra * 0.15))
+elif (valor_da_compra >= 500):
+    print("o valor total da compra com desconto foi:R$", valor_da_compra -(valor_da_compra * 0.20))
+else:
+    print("sua compra nao tem desconto, logo o valor da compra fica:R$", valor_da_compra)
