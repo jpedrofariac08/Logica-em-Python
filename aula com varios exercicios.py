@@ -295,3 +295,17 @@ elif (lado1 == lado2 and lado1 != lado3) or (lado1 == lado3 and lado1 != lado2) 
   print("É um triângulo isósceles!")
 else:
   print("É um triângulo escaleno!")
+
+#classificação de fase da vida de acordo com a idade!
+
+print("Classificação de fase da vida: criança, adulto e idoso")
+idade = float(input("qual é a sua idade?"))
+
+if idade > 0 and idade < 18:
+    print("voce e uma crianca!")
+elif idade >= 18 and idade < 60:
+    print("voce e adulto!")
+elif idade >= 60:
+    print("voce e idoso")
+else:
+    print("idade invalida digite novamente")
