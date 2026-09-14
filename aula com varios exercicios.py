@@ -358,3 +358,28 @@ def escolhapagamento (opcao):
       return "Opção inválida"
   
 main()
+
+#desconto progressivo V2!
+
+print("---DESCONTO DA COMPRA---")
+
+def main():
+
+  valor_da_compra = float(input("O valor da compra foi: R$ "))
+
+  valor_total = escolha_desconto(valor_da_compra)
+
+  print("O valor total da compra foi: R$", valor_total)
+
+def escolha_desconto(valor_da_compra):
+
+  if valor_da_compra >= 100 and valor_da_compra < 300:
+    return valor_da_compra - (valor_da_compra * 0.10)
+  elif valor_da_compra >= 300 and valor_da_compra < 500:
+    return valor_da_compra - (valor_da_compra * 0.15)
+  elif valor_da_compra >= 500:
+    return valor_da_compra - (valor_da_compra * 0.20)
+  else:
+    return valor_da_compra
+
+main()
