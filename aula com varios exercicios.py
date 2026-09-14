@@ -270,6 +270,19 @@ print("----------MENU DE PAGAMENTO----------")
 print("-dinheiro\n-credito\n-debito\n-pix\n-boleto")
 forma_pagamento = input("qual sera sua forma de pagamento? ")
 
+if forma_pagamento == "dinheiro":
+    print("Você escolheu dinheiro.")
+elif forma_pagamento == "credito":
+    print("Você escolheu crédito.")
+elif forma_pagamento == "debito":
+    print("Você escolheu débito.")
+elif forma_pagamento == "pix":
+    print("Você escolheu Pix.")
+elif forma_pagamento == "boleto":
+    print("Você escolheu boleto.")
+else:
+    print("Opção inválida.")
+
 #Desconto a partir de 100(10%), 300(15%), 500(20%)
 
 valor_da_compra = float(input("o valor  da compra foi:"))
