@@ -322,3 +322,39 @@ elif idade >= 60:
     print("voce e idoso")
 else:
     print("idade invalida digite novamente")
+
+#menu de pagamento V2!
+
+print("---ESCOLHA DE PAGAMENTO---")
+
+def main ():
+
+  print("1 - Dinheiro")
+  print("2 - Cartão de Crédito")
+  print("3 - Cartão de Débito")
+  print("4 - PIX")
+  print("5 - Boleto")
+
+  opcao = int (input ("Escolha a forma de pagamento: "))
+
+  pagamento = escolhapagamento (opcao)
+
+  print("Forma de pagamento escolhido: ",pagamento)
+
+def escolhapagamento (opcao):
+
+  match opcao:
+    case 1:
+      return "Dinheiro"
+    case 2:
+      return "Cartão de Crédito"
+    case 3:
+      return "Cartão de Débito"
+    case 4:
+      return "PIX"
+    case 5:
+      return "Boleto"
+    case 6:
+      return "Opção inválida"
+  
+main()
